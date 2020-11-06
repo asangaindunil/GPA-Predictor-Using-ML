@@ -1,0 +1,17 @@
+ERROR: unknown command "script.py"
+ERROR: unknown command "app.py"
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator LinearRegression from version 0.23.1 when using version 0.23.2. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+Traceback (most recent call last):
+  File "app.py", line 296, in <module>
+    app.run(debug=True)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use

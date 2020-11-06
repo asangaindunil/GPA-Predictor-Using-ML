@@ -1,0 +1,1687 @@
+-- Logs begin at Sat 2020-09-05 18:14:20 UTC, end at Tue 2020-09-22 14:52:28 UTC. --
+Sep 22 13:29:23 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.194.225 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=34098 PROTO=TCP SPT=41108 DPT=1998 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:29:23 mail sudo[219690]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:29:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=67.227.152.142 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=14751 PROTO=TCP SPT=32767 DPT=8545 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:29:35 mail sudo[219696]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install flask_mysqldb[0m
+Sep 22 13:29:35 mail sudo[219696]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:29:36 mail sudo[219696]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:29:43 mail sudo[219714]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:29:43 mail sudo[219714]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:29:43 mail sudo[219714]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:29:44 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 13:29:44 mail postfix/smtpd[219639]: connect from unknown[141.98.10.136]
+Sep 22 13:29:44 mail postfix/smtpd[219639]: disconnect from unknown[141.98.10.136] ehlo=1 auth=0/1 quit=1 commands=2/3
+Sep 22 13:29:57 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=7002 PROTO=TCP SPT=59178 DPT=4547 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:30:33 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.40 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=43397 PROTO=TCP SPT=54293 DPT=22223 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:30:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=203.189.239.116 DST=104.248.22.82 LEN=60 TOS=0x00 PREC=0x00 TTL=57 ID=26223 DF PROTO=TCP SPT=43898 DPT=3218 WINDOW=29200 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:31:03 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=62036 PROTO=TCP SPT=59623 DPT=33335 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:31:24 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=27282 PROTO=TCP SPT=44170 DPT=30244 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:31:39 mail sshd[219819]: Invalid user jenny from 212.83.186.26 port 50721
+Sep 22 13:31:39 mail sshd[219819]: Received disconnect from 212.83.186.26 port 50721:11: Bye Bye [preauth]
+Sep 22 13:31:39 mail sshd[219819]: Disconnected from invalid user jenny 212.83.186.26 port 50721 [preauth]
+Sep 22 13:31:45 mail sshd[219821]: Invalid user ntpo from 118.122.91.148 port 42277
+Sep 22 13:31:45 mail sshd[219821]: Received disconnect from 118.122.91.148 port 42277:11: Bye Bye [preauth]
+Sep 22 13:31:45 mail sshd[219821]: Disconnected from invalid user ntpo 118.122.91.148 port 42277 [preauth]
+Sep 22 13:31:52 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=57711 PROTO=TCP SPT=47405 DPT=54715 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:32:00 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=28894 PROTO=TCP SPT=47405 DPT=56547 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:32:14 mail PackageKit[218998]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 13:32:14 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 13:32:15 mail sudo[219850]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:32:15 mail sudo[219850]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:32:16 mail sudo[219850]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:32:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=24019 PROTO=TCP SPT=59623 DPT=23723 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:32:47 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=23484 PROTO=TCP SPT=57264 DPT=8047 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:32:56 mail sshd[219856]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Sep 22 13:33:00 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.10 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=21859 PROTO=TCP SPT=41248 DPT=27944 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:33:04 mail postfix/anvil[219641]: statistics: max connection rate 1/60s for (smtp:172.93.147.14) at Sep 22 13:28:18
+Sep 22 13:33:04 mail postfix/anvil[219641]: statistics: max connection count 1 for (smtp:172.93.147.14) at Sep 22 13:28:18
+Sep 22 13:33:04 mail postfix/anvil[219641]: statistics: max cache size 2 at Sep 22 13:29:15
+Sep 22 13:33:17 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=84.38.184.53 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=49114 PROTO=TCP SPT=47822 DPT=364 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:33:26 mail snapd[109788]: storehelpers.go:438: cannot refresh: snap has no updates available: "certbot", "core18", "core20", "lxd", "snapd"
+Sep 22 13:33:26 mail snapd[109788]: autorefresh.go:410: auto-refresh: all snaps are up-to-date
+Sep 22 13:33:45 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=19467 PROTO=TCP SPT=59178 DPT=4600 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:33:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=167.248.133.21 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=41 ID=37269 PROTO=TCP SPT=22210 DPT=9200 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:34:01 mail sshd[219869]: Received disconnect from 65.52.133.37 port 46548:11: Bye Bye [preauth]
+Sep 22 13:34:01 mail sshd[219869]: Disconnected from authenticating user root 65.52.133.37 port 46548 [preauth]
+Sep 22 13:34:20 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=47279 PROTO=TCP SPT=51074 DPT=64307 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:34:35 mail sshd[219872]: Invalid user test from 34.83.15.13 port 57970
+Sep 22 13:34:35 mail sshd[219872]: Received disconnect from 34.83.15.13 port 57970:11: Bye Bye [preauth]
+Sep 22 13:34:35 mail sshd[219872]: Disconnected from invalid user test 34.83.15.13 port 57970 [preauth]
+Sep 22 13:34:40 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=48205 PROTO=TCP SPT=51493 DPT=64426 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:34:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=47256 PROTO=TCP SPT=51074 DPT=52409 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:35:01 mail CRON[219876]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 13:35:01 mail CRON[219877]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 13:35:01 mail CRON[219876]: pam_unix(cron:session): session closed for user root
+Sep 22 13:35:03 mail postfix/smtpd[219879]: connect from 57rap.wearevery.tech[139.99.155.158]
+Sep 22 13:35:04 mail postfix/smtpd[219879]: NOQUEUE: reject: RCPT from 57rap.wearevery.tech[139.99.155.158]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<mary@wearevery.tech> to=<info@sansiri.com.au> proto=ESMTP helo=<57rap.wearevery.tech>
+Sep 22 13:35:05 mail postfix/smtpd[219879]: disconnect from 57rap.wearevery.tech[139.99.155.158] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 13:35:12 mail systemd[1]: fwupd.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit fwupd.service has successfully entered the 'dead' state.
+Sep 22 13:35:22 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.123 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=29718 PROTO=TCP SPT=56143 DPT=2809 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:35:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=113.183.62.94 DST=104.248.22.82 LEN=52 TOS=0x00 PREC=0x00 TTL=113 ID=18138 DF PROTO=TCP SPT=63934 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:35:50 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 13:35:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.100 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=11979 PROTO=TCP SPT=51891 DPT=44445 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:36:09 mail dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.378' (uid=0 pid=221715 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 22 13:36:09 mail systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 82829.
+Sep 22 13:36:10 mail PackageKit[221718]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Sep 22 13:36:10 mail dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 22 13:36:10 mail systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 82829.
+Sep 22 13:36:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=28159 PROTO=TCP SPT=47405 DPT=57120 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:36:20 mail systemd[214779]: Started D-Bus User Message Bus.
+-- Subject: A start job for unit UNIT has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit UNIT has finished successfully.
+-- 
+-- The job identifier is 16.
+Sep 22 13:36:20 mail dbus-daemon[221819]: [session uid=0 pid=221819] AppArmor D-Bus mediation is enabled
+Sep 22 13:36:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.49 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=31948 PROTO=TCP SPT=57229 DPT=3022 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:36:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.60 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=22002 PROTO=TCP SPT=57775 DPT=38118 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:37:20 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=3995 PROTO=TCP SPT=51074 DPT=21952 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:37:38 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=103.145.13.221 DST=104.248.22.82 LEN=443 TOS=0x00 PREC=0x00 TTL=52 ID=54009 DF PROTO=UDP SPT=5098 DPT=5060 LEN=423 [0m
+Sep 22 13:37:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=63600 PROTO=TCP SPT=51074 DPT=49665 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:38:14 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=52998 PROTO=TCP SPT=40232 DPT=52357 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:38:23 mail sshd[221856]: Invalid user testuser from 13.78.235.113 port 45320
+Sep 22 13:38:23 mail sshd[221856]: Received disconnect from 13.78.235.113 port 45320:11: Bye Bye [preauth]
+Sep 22 13:38:23 mail sshd[221856]: Disconnected from invalid user testuser 13.78.235.113 port 45320 [preauth]
+Sep 22 13:38:25 mail postfix/anvil[219881]: statistics: max connection rate 1/60s for (smtp:139.99.155.158) at Sep 22 13:35:03
+Sep 22 13:38:25 mail postfix/anvil[219881]: statistics: max connection count 1 for (smtp:139.99.155.158) at Sep 22 13:35:03
+Sep 22 13:38:25 mail postfix/anvil[219881]: statistics: max cache size 1 at Sep 22 13:35:03
+Sep 22 13:38:34 mail sudo[221865]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:38:34 mail sudo[221865]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:38:34 mail sudo[221865]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:38:45 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.13 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=48749 PROTO=TCP SPT=53604 DPT=9097 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:38:46 mail dovecot[669]: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=106.75.79.172, lip=104.248.22.82, session=<z/4eFuev7J9qS0+s>
+Sep 22 13:39:01 mail CRON[221883]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 13:39:01 mail CRON[221884]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Sep 22 13:39:01 mail CRON[221883]: pam_unix(cron:session): session closed for user root
+Sep 22 13:39:05 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=29095 PROTO=TCP SPT=40232 DPT=50334 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:39:19 mail systemd[1]: Starting Clean php session files...
+-- Subject: A start job for unit phpsessionclean.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has begun execution.
+-- 
+-- The job identifier is 82904.
+Sep 22 13:39:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.41 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=6839 PROTO=TCP SPT=56074 DPT=490 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:39:19 mail systemd[1]: phpsessionclean.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit phpsessionclean.service has successfully entered the 'dead' state.
+Sep 22 13:39:19 mail systemd[1]: Finished Clean php session files.
+-- Subject: A start job for unit phpsessionclean.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has finished successfully.
+-- 
+-- The job identifier is 82904.
+Sep 22 13:39:29 mail sudo[221994]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:39:29 mail sudo[221994]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:39:29 mail sudo[221994]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:39:32 mail postfix/smtpd[221999]: connect from mail-ej1-f68.google.com[209.85.218.68]
+Sep 22 13:39:32 mail postfix/smtpd[221999]: NOQUEUE: reject: RCPT from mail-ej1-f68.google.com[209.85.218.68]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<seo.mkt@dreamwebrank.online> to=<info@sansiri.com.au> proto=ESMTP helo=<mail-ej1-f68.google.com>
+Sep 22 13:39:32 mail postfix/smtpd[221999]: disconnect from mail-ej1-f68.google.com[209.85.218.68] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Sep 22 13:39:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=33509 PROTO=TCP SPT=51074 DPT=63823 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:39:50 mail sshd[222005]: Invalid user gerrit from 106.12.14.130 port 36976
+Sep 22 13:39:50 mail sshd[222005]: Received disconnect from 106.12.14.130 port 36976:11: Bye Bye [preauth]
+Sep 22 13:39:50 mail sshd[222005]: Disconnected from invalid user gerrit 106.12.14.130 port 36976 [preauth]
+Sep 22 13:39:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=32065 PROTO=TCP SPT=59623 DPT=64892 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:40:03 mail sshd[222007]: Received disconnect from 222.186.42.155 port 47129:11:  [preauth]
+Sep 22 13:40:03 mail sshd[222007]: Disconnected from 222.186.42.155 port 47129 [preauth]
+Sep 22 13:40:05 mail sudo[222009]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python3-pip[0m
+Sep 22 13:40:05 mail sudo[222009]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:40:06 mail sudo[222009]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:40:09 mail sudo[222032]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:40:09 mail sudo[222032]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:40:10 mail sudo[222032]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:40:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=32548 PROTO=TCP SPT=51074 DPT=61078 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:40:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.147 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=34705 PROTO=TCP SPT=54687 DPT=51563 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:40:38 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 13:40:38 mail postfix/smtpd[221999]: connect from unknown[141.98.10.192]
+Sep 22 13:40:38 mail postfix/smtpd[221999]: disconnect from unknown[141.98.10.192] ehlo=1 auth=0/1 quit=1 commands=2/3
+Sep 22 13:40:49 mail sshd[222071]: Received disconnect from 223.223.194.101 port 7203:11: Bye Bye [preauth]
+Sep 22 13:40:49 mail sshd[222071]: Disconnected from authenticating user root 223.223.194.101 port 7203 [preauth]
+Sep 22 13:40:51 mail sudo[222073]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python-dev default-libmysqlclient-dev libssl-dev[0m
+Sep 22 13:40:51 mail sudo[222073]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:40:51 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 13:40:56 mail sudo[222073]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:41:00 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=19578 PROTO=TCP SPT=51493 DPT=62810 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:41:20 mail sudo[222426]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:41:20 mail sudo[222426]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:41:20 mail sudo[222426]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:41:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.146.164.169 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=2701 PROTO=TCP SPT=49295 DPT=5678 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:41:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.175.93.23 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=6012 PROTO=TCP SPT=53321 DPT=5909 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:41:37 mail sudo[222441]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:41:37 mail sudo[222441]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:41:38 mail sudo[222441]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:41:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=149.3.170.149 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=58510 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:42:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=51080 PROTO=TCP SPT=51074 DPT=23314 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:42:28 mail sudo[222464]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:42:28 mail sudo[222464]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:42:28 mail sudo[222464]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:42:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.47 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=24706 PROTO=TCP SPT=51954 DPT=7898 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:42:42 mail sudo[222585]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:42:42 mail sudo[222585]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:42:42 mail sudo[222585]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:42:45 mail sshd[222590]: Invalid user florian from 220.127.148.8 port 39453
+Sep 22 13:42:45 mail sshd[222590]: Received disconnect from 220.127.148.8 port 39453:11: Bye Bye [preauth]
+Sep 22 13:42:45 mail sshd[222590]: Disconnected from invalid user florian 220.127.148.8 port 39453 [preauth]
+Sep 22 13:42:49 mail postfix/smtpd[222592]: connect from 57rap.wearevery.tech[139.99.155.158]
+Sep 22 13:42:50 mail sudo[222594]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python3.6-dev libmysqlclient-dev[0m
+Sep 22 13:42:50 mail sudo[222594]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:42:51 mail sudo[222594]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:42:51 mail postfix/smtpd[222592]: NOQUEUE: reject: RCPT from 57rap.wearevery.tech[139.99.155.158]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<mary@wearevery.tech> to=<info@sansiri.com.au> proto=ESMTP helo=<57rap.wearevery.tech>
+Sep 22 13:42:52 mail postfix/smtpd[222592]: disconnect from 57rap.wearevery.tech[139.99.155.158] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 13:42:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=112.95.211.178 DST=104.248.22.82 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=21034 DF PROTO=TCP SPT=37706 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:43:11 mail sshd[222609]: Invalid user support from 222.73.215.81 port 34343
+Sep 22 13:43:11 mail sshd[222609]: Received disconnect from 222.73.215.81 port 34343:11: Bye Bye [preauth]
+Sep 22 13:43:11 mail sshd[222609]: Disconnected from invalid user support 222.73.215.81 port 34343 [preauth]
+Sep 22 13:43:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.47 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=17973 PROTO=TCP SPT=51954 DPT=9004 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:43:26 mail sudo[222618]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:43:26 mail sudo[222618]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:43:27 mail sudo[222618]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:43:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=62402 PROTO=TCP SPT=59623 DPT=60003 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:43:50 mail sshd[222624]: Received disconnect from 114.242.25.132 port 48631:11: Bye Bye [preauth]
+Sep 22 13:43:50 mail sshd[222624]: Disconnected from authenticating user root 114.242.25.132 port 48631 [preauth]
+Sep 22 13:43:55 mail sudo[222633]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:43:55 mail sudo[222633]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:43:55 mail sudo[222633]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:43:59 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=61784 PROTO=TCP SPT=51074 DPT=51649 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:44:22 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.5 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=33982 PROTO=TCP SPT=53915 DPT=4504 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:44:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=23496 PROTO=TCP SPT=59623 DPT=64783 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:44:56 mail sudo[222648]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install python3.6-dev libpython3.6-dev[0m
+Sep 22 13:44:56 mail sudo[222648]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:44:56 mail sudo[222648]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:44:56 mail sudo[222661]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install mysql-server[0m
+Sep 22 13:44:56 mail sudo[222661]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:44:57 mail sudo[222661]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:44:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=193.27.229.47 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=53104 PROTO=TCP SPT=56368 DPT=7353 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:45:01 mail CRON[222698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 13:45:01 mail CRON[222699]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 13:45:01 mail CRON[222698]: pam_unix(cron:session): session closed for user root
+Sep 22 13:45:16 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=176.113.115.214 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=53610 PROTO=TCP SPT=59406 DPT=3000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:45:17 mail sudo[222707]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:45:17 mail sudo[222707]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:45:17 mail sudo[222707]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:45:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=193.27.229.207 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=52178 PROTO=TCP SPT=43159 DPT=4747 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:45:59 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.153 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=11416 PROTO=TCP SPT=55982 DPT=15918 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:46:00 mail PackageKit[221718]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 13:46:00 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 13:46:06 mail sudo[222738]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:46:06 mail sudo[222738]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:46:06 mail sudo[222738]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:46:12 mail postfix/anvil[222001]: statistics: max connection rate 1/60s for (smtp:209.85.218.68) at Sep 22 13:39:32
+Sep 22 13:46:12 mail postfix/anvil[222001]: statistics: max connection count 1 for (smtp:209.85.218.68) at Sep 22 13:39:32
+Sep 22 13:46:12 mail postfix/anvil[222001]: statistics: max cache size 1 at Sep 22 13:39:32
+Sep 22 13:46:14 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=47295 PROTO=TCP SPT=40232 DPT=52532 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:46:39 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=10137 PROTO=TCP SPT=51074 DPT=49499 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:46:42 mail sshd[222757]: Received disconnect from 92.222.93.104 port 39948:11: Bye Bye [preauth]
+Sep 22 13:46:42 mail sshd[222757]: Disconnected from authenticating user root 92.222.93.104 port 39948 [preauth]
+Sep 22 13:46:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=25275 PROTO=TCP SPT=51074 DPT=56770 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:46:59 mail sudo[222759]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py$ sudo apt-get install python3.6[0m
+Sep 22 13:46:59 mail sudo[222759]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:46:59 mail sudo[222759]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:47:08 mail sudo[222772]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python3.6[0m
+Sep 22 13:47:08 mail sudo[222772]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:47:09 mail sudo[222772]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:47:27 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=92.63.197.74 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=2137 PROTO=TCP SPT=57603 DPT=3311 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:47:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=7522 PROTO=TCP SPT=59623 DPT=9030 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:47:38 mail sshd[222806]: Invalid user ubuntu from 211.219.18.186 port 35346
+Sep 22 13:47:38 mail sshd[222806]: Received disconnect from 211.219.18.186 port 35346:11: Bye Bye [preauth]
+Sep 22 13:47:38 mail sshd[222806]: Disconnected from invalid user ubuntu 211.219.18.186 port 35346 [preauth]
+Sep 22 13:47:40 mail sudo[222809]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python3.7[0m
+Sep 22 13:47:40 mail sudo[222809]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:47:41 mail sudo[222809]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:47:47 mail sudo[222833]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install python3-pip[0m
+Sep 22 13:47:47 mail sudo[222833]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:47:48 mail sudo[222833]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:47:55 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=74.82.47.39 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=46549 DPT=8080 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:47:57 mail sudo[222855]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:47:57 mail sudo[222855]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:47:57 mail sudo[222855]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:48:18 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=157.230.240.140 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=8388 PROTO=TCP SPT=56679 DPT=31178 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:48:18 mail sudo[222861]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1[0m
+Sep 22 13:48:18 mail sudo[222861]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:48:18 mail sudo[222861]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:48:26 mail sudo[222863]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2[0m
+Sep 22 13:48:26 mail sudo[222863]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:48:26 mail sudo[222863]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:48:28 mail sshd[222865]: Invalid user xxx from 81.198.117.110 port 46636
+Sep 22 13:48:28 mail sshd[222865]: Received disconnect from 81.198.117.110 port 46636:11: Bye Bye [preauth]
+Sep 22 13:48:28 mail sshd[222865]: Disconnected from invalid user xxx 81.198.117.110 port 46636 [preauth]
+Sep 22 13:48:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=26578 PROTO=TCP SPT=59623 DPT=9093 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:48:59 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=51.210.255.202 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=60751 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:49:18 mail sshd[222868]: Connection closed by 3.135.202.72 port 60562 [preauth]
+Sep 22 13:49:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.17 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=47613 PROTO=TCP SPT=43252 DPT=7728 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:49:31 mail sudo[222872]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install -y python3-pip[0m
+Sep 22 13:49:31 mail sudo[222872]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:49:32 mail sudo[222872]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:49:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=27.7.81.230 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=51 ID=44329 PROTO=TCP SPT=22350 DPT=23 WINDOW=22919 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:49:41 mail sudo[222895]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install -y build-essential libssl-dev libffi-dev python3-dev[0m
+Sep 22 13:49:41 mail sudo[222895]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:49:42 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 13:49:43 mail dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.384' (uid=0 pid=223025 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 22 13:49:43 mail systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 82978.
+Sep 22 13:49:43 mail PackageKit[223028]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Sep 22 13:49:43 mail dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 22 13:49:43 mail systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 82978.
+Sep 22 13:49:45 mail sudo[222895]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:49:51 mail sudo[223105]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:49:51 mail sudo[223105]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:49:52 mail sudo[223105]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:49:57 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=4456 PROTO=TCP SPT=51074 DPT=64385 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:50:04 mail sudo[223111]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install -y python3-venv[0m
+Sep 22 13:50:04 mail sudo[223111]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:50:05 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 13:50:09 mail sudo[223111]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:50:24 mail sudo[223309]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:50:24 mail sudo[223309]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:50:25 mail sudo[223309]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:50:26 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=34845 PROTO=TCP SPT=51074 DPT=59147 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:50:32 mail sudo[223314]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install python3-pip[0m
+Sep 22 13:50:32 mail sudo[223314]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:50:33 mail sudo[223314]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:50:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=25627 PROTO=TCP SPT=51493 DPT=63138 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:50:51 mail postfix/smtpd[223342]: connect from 19hap.happybeam.tech[139.99.134.112]
+Sep 22 13:50:53 mail postfix/smtpd[223342]: NOQUEUE: reject: RCPT from 19hap.happybeam.tech[139.99.134.112]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<sara@happybeam.tech> to=<info@sansiri.com.au> proto=ESMTP helo=<vps-c1ea8750.vps.ovh.ca>
+Sep 22 13:50:53 mail postfix/smtpd[223342]: disconnect from 19hap.happybeam.tech[139.99.134.112] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 13:51:02 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=9824 PROTO=TCP SPT=54920 DPT=9090 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:51:16 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=35883 PROTO=TCP SPT=44170 DPT=48018 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:51:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=93.136.152.220 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=53 ID=22135 PROTO=TCP SPT=25168 DPT=2323 WINDOW=61710 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:51:43 mail sudo[223357]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python-dev default-libmysqlclient-dev libssl-dev[0m
+Sep 22 13:51:43 mail sudo[223357]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:51:44 mail sudo[223357]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:51:46 mail sshd[223379]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Sep 22 13:52:05 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.10 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=39417 PROTO=TCP SPT=41248 DPT=27991 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:52:13 mail sudo[223402]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install mysql-server[0m
+Sep 22 13:52:13 mail sudo[223402]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:52:14 mail sudo[223402]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:52:18 mail sudo[223424]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install libmysqlclient-dev[0m
+Sep 22 13:52:18 mail sudo[223424]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:52:19 mail sudo[223424]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:52:20 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=93.174.93.195 DST=104.248.22.82 LEN=57 TOS=0x00 PREC=0x00 TTL=250 ID=54321 PROTO=UDP SPT=48777 DPT=65476 LEN=37 [0m
+Sep 22 13:52:39 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.125 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=11412 PROTO=TCP SPT=56087 DPT=616 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:52:48 mail sudo[223452]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:52:48 mail sudo[223452]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:52:48 mail sudo[223452]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:53:10 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=92.63.197.97 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=36299 PROTO=TCP SPT=53496 DPT=6005 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:53:12 mail sudo[223463]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install build-essential libssl-dev libffi-dev python3-dev[0m
+Sep 22 13:53:12 mail sudo[223463]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:53:13 mail sudo[223463]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:53:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=62712 PROTO=TCP SPT=51074 DPT=37856 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:53:21 mail sudo[223490]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:53:21 mail sudo[223490]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:53:21 mail sudo[223490]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:53:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=3661 PROTO=TCP SPT=47405 DPT=56095 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:53:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=55264 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:54:11 mail sudo[223510]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python-pip python-dev libmysqlclient-dev[0m
+Sep 22 13:54:11 mail sudo[223510]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:54:11 mail sudo[223510]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:54:13 mail postfix/anvil[223344]: statistics: max connection rate 1/60s for (smtp:139.99.134.112) at Sep 22 13:50:51
+Sep 22 13:54:13 mail postfix/anvil[223344]: statistics: max connection count 1 for (smtp:139.99.134.112) at Sep 22 13:50:51
+Sep 22 13:54:13 mail postfix/anvil[223344]: statistics: max cache size 1 at Sep 22 13:50:51
+Sep 22 13:54:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=34329 PROTO=TCP SPT=44170 DPT=7907 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:54:30 mail sshd[223523]: Connection closed by 134.175.59.225 port 43426 [preauth]
+Sep 22 13:54:33 mail sudo[223534]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:54:33 mail sudo[223534]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:54:33 mail sudo[223534]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:54:38 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.146.164.169 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=52362 PROTO=TCP SPT=49295 DPT=1927 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:55:01 mail CRON[223548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 13:55:01 mail CRON[223549]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 13:55:01 mail CRON[223548]: pam_unix(cron:session): session closed for user root
+Sep 22 13:55:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=44171 PROTO=TCP SPT=59623 DPT=50700 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:55:13 mail PackageKit[223028]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 13:55:13 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 13:55:24 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=34826 PROTO=TCP SPT=59178 DPT=4418 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:55:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=74.120.14.21 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x20 TTL=44 ID=26405 PROTO=TCP SPT=52141 DPT=623 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:55:43 mail sshd[223568]: Connection closed by 123.30.157.239 port 42688 [preauth]
+Sep 22 13:56:06 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=186.155.14.0 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=53 ID=48228 PROTO=TCP SPT=55144 DPT=8080 WINDOW=62289 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:56:22 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.100 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=55800 PROTO=TCP SPT=51891 DPT=1998 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:56:44 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=11817 PROTO=TCP SPT=47405 DPT=57821 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:56:56 mail sudo[223598]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 13:56:56 mail sudo[223598]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 13:56:56 mail sudo[223598]: pam_unix(sudo:session): session closed for user root
+Sep 22 13:56:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.51 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=38602 PROTO=TCP SPT=53067 DPT=51570 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:57:17 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=1.2.200.184 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=237 ID=17618 PROTO=TCP SPT=43779 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:57:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=46358 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:57:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.146.164.169 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=51119 PROTO=TCP SPT=49295 DPT=8000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:58:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=63722 PROTO=TCP SPT=51493 DPT=65210 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:58:39 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=162.144.150.118 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=9597 PROTO=TCP SPT=55138 DPT=22961 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:58:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.94.111.1 DST=104.248.22.82 LEN=52 TOS=0x00 PREC=0x00 TTL=249 ID=54321 PROTO=UDP SPT=46840 DPT=520 LEN=32 [0m
+Sep 22 13:59:21 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=7206 PROTO=TCP SPT=51493 DPT=62200 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:59:44 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=35351 PROTO=TCP SPT=59178 DPT=4625 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 13:59:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=18912 PROTO=TCP SPT=59623 DPT=9831 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:00:16 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=192.241.239.247 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=54321 PROTO=TCP SPT=54027 DPT=7777 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:00:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.149 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=46529 PROTO=TCP SPT=58347 DPT=51545 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:00:59 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.24 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=63555 PROTO=TCP SPT=40929 DPT=23307 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:01:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=2268 PROTO=TCP SPT=59178 DPT=4569 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:01:28 mail sshd[223619]: Invalid user 1 from 203.2.118.84 port 38329
+Sep 22 14:01:29 mail sshd[223619]: Received disconnect from 203.2.118.84 port 38329:11: Bye Bye [preauth]
+Sep 22 14:01:29 mail sshd[223619]: Disconnected from invalid user 1 203.2.118.84 port 38329 [preauth]
+Sep 22 14:01:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=7765 PROTO=TCP SPT=47405 DPT=56433 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:05 mail sudo[223636]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/sbin/ufw allow 5000[0m
+Sep 22 14:02:05 mail sudo[223636]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:02:05 mail sudo[223636]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:02:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=19425 PROTO=TCP SPT=51074 DPT=11227 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=52150 PROTO=TCP SPT=51074 DPT=12840 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:12 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=103.47.104.222 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x20 TTL=55 ID=22909 PROTO=TCP SPT=42883 DPT=23 WINDOW=55852 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:29 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.10 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=37855 PROTO=TCP SPT=41248 DPT=27961 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.143 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=36385 PROTO=TCP SPT=58465 DPT=51541 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.144 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=57549 PROTO=TCP SPT=57985 DPT=51552 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:41 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=216.218.206.80 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=41290 DPT=2323 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:42 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=167.248.133.74 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=41 ID=17866 PROTO=TCP SPT=10241 DPT=9295 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:02:46 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=64931 PROTO=TCP SPT=47405 DPT=56166 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:03:05 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=24139 PROTO=TCP SPT=51074 DPT=39810 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:03:05 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=23814 PROTO=TCP SPT=51074 DPT=12 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:03:05 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=23838 PROTO=TCP SPT=51074 DPT=344 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:03:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=89.248.168.157 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=54321 PROTO=TCP SPT=49917 DPT=560 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:03:27 mail sshd[223679]: Received disconnect from 159.203.30.50 port 45046:11: Bye Bye [preauth]
+Sep 22 14:03:27 mail sshd[223679]: Disconnected from authenticating user root 159.203.30.50 port 45046 [preauth]
+Sep 22 14:03:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=7644 PROTO=TCP SPT=51074 DPT=65215 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:03:50 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=49416 PROTO=TCP SPT=51074 DPT=58084 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:04:13 mail sudo[223689]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python app.py[0m
+Sep 22 14:04:13 mail sudo[223689]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:04:13 mail sudo[223689]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:04:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=60.218.120.50 DST=104.248.22.82 LEN=52 TOS=0x00 PREC=0x00 TTL=111 ID=4831 DF PROTO=TCP SPT=41144 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:04:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=55849 PROTO=TCP SPT=51074 DPT=40112 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:04:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=61.161.232.237 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=64482 PROTO=TCP SPT=56998 DPT=8160 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:05:01 mail CRON[223709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:05:01 mail CRON[223710]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 14:05:01 mail CRON[223709]: pam_unix(cron:session): session closed for user root
+Sep 22 14:05:16 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=43703 PROTO=TCP SPT=59178 DPT=4544 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:05:44 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=41291 PROTO=TCP SPT=51074 DPT=58937 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:05:55 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=36622 PROTO=TCP SPT=51074 DPT=54471 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:06:18 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=103.7.248.222 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=49 ID=3184 PROTO=TCP SPT=29127 DPT=23 WINDOW=18423 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:06:24 mail sudo[223716]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt purge -y python2.7-minimal[0m
+Sep 22 14:06:24 mail sudo[223716]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:06:25 mail libapache2-mod-wsgi[223753]: apache2_invoke prerm: Disable module wsgi
+Sep 22 14:06:25 mail systemd[1]: Reloading.
+Sep 22 14:06:26 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:06:26 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:06:26 mail systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83053.
+Sep 22 14:06:26 mail systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Sep 22 14:06:26 mail systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 83053 and the job result is done.
+Sep 22 14:06:26 mail systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83053.
+Sep 22 14:06:27 mail systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 83053.
+Sep 22 14:06:28 mail libapache2-mod-wsgi[223936]: apache2_invoke postrm: Purging state for wsgi
+Sep 22 14:06:28 mail dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.389' (uid=0 pid=223953 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 22 14:06:28 mail systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 83128.
+Sep 22 14:06:28 mail PackageKit[223956]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Sep 22 14:06:28 mail dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 22 14:06:28 mail systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 83128.
+Sep 22 14:06:30 mail sudo[223716]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:06:33 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=18302 PROTO=TCP SPT=51074 DPT=48188 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:06:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=57888 PROTO=TCP SPT=59623 DPT=18100 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:07:12 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=1015 PROTO=TCP SPT=44170 DPT=11144 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:07:27 mail sudo[224026]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install -y python3-pip[0m
+Sep 22 14:07:27 mail sudo[224026]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:07:27 mail sudo[224026]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:07:30 mail sudo[224048]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install -y python3-pip[0m
+Sep 22 14:07:30 mail sudo[224048]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:07:30 mail sudo[224048]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:07:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=209.17.96.122 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=58365 DPT=4567 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:07:46 mail sudo[224073]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python3 app.py[0m
+Sep 22 14:07:46 mail sudo[224073]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:07:46 mail sudo[224073]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:07:48 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=2139 PROTO=TCP SPT=51074 DPT=35474 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:08:13 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=30748 PROTO=TCP SPT=51074 DPT=60872 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:08:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=59419 PROTO=TCP SPT=51074 DPT=53239 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:08:44 mail sudo[224084]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install python3-venv[0m
+Sep 22 14:08:44 mail sudo[224084]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:08:45 mail sudo[224084]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:08:52 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=193.27.228.172 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=23659 PROTO=TCP SPT=49745 DPT=15538 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:09:01 mail CRON[224116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:09:01 mail CRON[224117]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Sep 22 14:09:01 mail CRON[224116]: pam_unix(cron:session): session closed for user root
+Sep 22 14:09:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=18360 PROTO=TCP SPT=59623 DPT=4011 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:09:19 mail systemd[1]: Starting Clean php session files...
+-- Subject: A start job for unit phpsessionclean.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has begun execution.
+-- 
+-- The job identifier is 83203.
+Sep 22 14:09:19 mail systemd[1]: phpsessionclean.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit phpsessionclean.service has successfully entered the 'dead' state.
+Sep 22 14:09:19 mail systemd[1]: Finished Clean php session files.
+-- Subject: A start job for unit phpsessionclean.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has finished successfully.
+-- 
+-- The job identifier is 83203.
+Sep 22 14:09:32 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=47924 PROTO=TCP SPT=51074 DPT=44262 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:09:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=57784 PROTO=TCP SPT=51493 DPT=61310 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:09:56 mail sshd[224766]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Sep 22 14:09:58 mail sudo[224767]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python3 app.py[0m
+Sep 22 14:09:58 mail sudo[224767]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:09:58 mail sudo[224767]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:10:14 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=40982 PROTO=TCP SPT=51074 DPT=20256 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:10:32 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=195.54.167.84 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=42781 PROTO=TCP SPT=41707 DPT=50437 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:10:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.58 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=56955 PROTO=TCP SPT=51923 DPT=1599 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:11:02 mail postfix/smtpd[224774]: connect from cross.hoqaufiwtuiline.online[167.88.7.14]
+Sep 22 14:11:03 mail postfix/smtpd[224774]: NOQUEUE: reject: RCPT from cross.hoqaufiwtuiline.online[167.88.7.14]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<cara@hoqaufiwtuiline.online> to=<info@sansiri.com.au> proto=ESMTP helo=<cross.hoqaufiwtuiline.online>
+Sep 22 14:11:03 mail postfix/smtpd[224774]: disconnect from cross.hoqaufiwtuiline.online[167.88.7.14] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:11:08 mail sudo[224781]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python-pip[0m
+Sep 22 14:11:08 mail sudo[224781]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:11:08 mail sudo[224781]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:11:09 mail sshd[224778]: Received disconnect from 98.142.139.4 port 47764:11: Bye Bye [preauth]
+Sep 22 14:11:09 mail sshd[224778]: Disconnected from authenticating user mysql 98.142.139.4 port 47764 [preauth]
+Sep 22 14:11:10 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=64353 PROTO=TCP SPT=59178 DPT=4519 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:11:15 mail sudo[224794]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install virtualenv[0m
+Sep 22 14:11:15 mail sudo[224794]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:11:15 mail sudo[224794]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:11:18 mail sudo[224796]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install virtualenv[0m
+Sep 22 14:11:18 mail sudo[224796]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:11:18 mail sudo[224796]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:11:29 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.13 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=19555 PROTO=TCP SPT=53604 DPT=9000 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:11:30 mail sudo[224798]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/virtualenv venv[0m
+Sep 22 14:11:30 mail sudo[224798]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:11:30 mail sudo[224798]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:11:33 mail PackageKit[223956]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 14:11:33 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 14:11:40 mail sudo[224813]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:11:40 mail sudo[224813]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:11:40 mail sudo[224813]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:11:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.58 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=10087 PROTO=TCP SPT=51923 DPT=11012 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:11:58 mail sudo[224815]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:11:58 mail sudo[224815]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:11:58 mail sudo[224815]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:12:03 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:12:03 mail postfix/smtpd[224774]: connect from unknown[141.98.10.136]
+Sep 22 14:12:03 mail sshd[214766]: pam_unix(sshd:session): session closed for user root
+Sep 22 14:12:03 mail systemd-logind[689]: Session 3629 logged out. Waiting for processes to exit.
+Sep 22 14:12:03 mail systemd[1]: session-3629.scope: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit session-3629.scope has successfully entered the 'dead' state.
+Sep 22 14:12:03 mail systemd-logind[689]: Removed session 3629.
+-- Subject: Session 3629 has been terminated
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 3629 has been terminated.
+Sep 22 14:12:03 mail postfix/smtpd[224774]: disconnect from unknown[141.98.10.136] ehlo=1 auth=0/1 quit=1 commands=2/3
+Sep 22 14:12:16 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=10294 PROTO=TCP SPT=59178 DPT=4587 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:12:22 mail sshd[224833]: Accepted publickey for root from 112.135.4.28 port 1779 ssh2: RSA SHA256:3WB9qtUivfyd9mOU5vWcXm3JNzLwk6P1P0kZCg8S35k
+Sep 22 14:12:22 mail sshd[224833]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Sep 22 14:12:22 mail systemd-logind[689]: New session 3641 of user root.
+-- Subject: A new session 3641 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 3641 has been created for the user root.
+-- 
+-- The leading process of the session is 224833.
+Sep 22 14:12:22 mail systemd[1]: Started Session 3641 of user root.
+-- Subject: A start job for unit session-3641.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-3641.scope has finished successfully.
+-- 
+-- The job identifier is 83277.
+Sep 22 14:12:24 mail sudo[224927]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:12:24 mail sudo[224927]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:12:24 mail sudo[224927]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:12:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=17187 PROTO=TCP SPT=40232 DPT=52621 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:12:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=17568 PROTO=TCP SPT=51074 DPT=1152 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:12:51 mail sudo[224930]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install libapache2-mod-wsgi python-dev[0m
+Sep 22 14:12:51 mail sudo[224930]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:12:59 mail libapache2-mod-wsgi[225094]: apache2_invoke: Enable module wsgi
+Sep 22 14:12:59 mail systemd[1]: Reloading.
+Sep 22 14:12:59 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:12:59 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:12:59 mail systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83355.
+Sep 22 14:12:59 mail systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Sep 22 14:12:59 mail systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 83355 and the job result is done.
+Sep 22 14:12:59 mail systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83355.
+Sep 22 14:13:00 mail systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 83355.
+Sep 22 14:13:00 mail dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.395' (uid=0 pid=225258 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 22 14:13:00 mail systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 83429.
+Sep 22 14:13:00 mail PackageKit[225261]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Sep 22 14:13:00 mail dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 22 14:13:00 mail systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 83429.
+Sep 22 14:13:03 mail sudo[224930]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:13:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=46801 PROTO=TCP SPT=51074 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:13:32 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=120.92.102.213 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=62396 PROTO=TCP SPT=40928 DPT=7508 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:13:55 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=51.161.12.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=34118 PROTO=TCP SPT=32767 DPT=8545 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:13:58 mail sudo[225333]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt purge -y python2.7-minimal[0m
+Sep 22 14:13:58 mail sudo[225333]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:14:00 mail libapache2-mod-wsgi[225370]: apache2_invoke prerm: Disable module wsgi
+Sep 22 14:14:00 mail systemd[1]: Reloading.
+Sep 22 14:14:00 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:14:00 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:14:00 mail systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83579.
+Sep 22 14:14:00 mail systemd[1]: Starting Message of the Day...
+-- Subject: A start job for unit motd-news.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.service has begun execution.
+-- 
+-- The job identifier is 83505.
+Sep 22 14:14:00 mail systemd[1]: motd-news.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit motd-news.service has successfully entered the 'dead' state.
+Sep 22 14:14:00 mail systemd[1]: Finished Message of the Day.
+-- Subject: A start job for unit motd-news.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit motd-news.service has finished successfully.
+-- 
+-- The job identifier is 83505.
+Sep 22 14:14:01 mail systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Sep 22 14:14:01 mail systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 83579 and the job result is done.
+Sep 22 14:14:01 mail systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83579.
+Sep 22 14:14:01 mail systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 83579.
+Sep 22 14:14:02 mail libapache2-mod-wsgi[225553]: apache2_invoke postrm: Purging state for wsgi
+Sep 22 14:14:05 mail sudo[225333]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:14:07 mail sudo[225632]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-get install libapache2-mod-wsgi-py3[0m
+Sep 22 14:14:07 mail sudo[225632]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:14:08 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:14:08 mail libapache2-mod-wsgi-py3[225696]: apache2_invoke: Enable module wsgi
+Sep 22 14:14:09 mail systemd[1]: Reloading.
+Sep 22 14:14:09 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:14:09 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:14:09 mail systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83654.
+Sep 22 14:14:09 mail systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Sep 22 14:14:09 mail systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 83654 and the job result is done.
+Sep 22 14:14:09 mail systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 83654.
+Sep 22 14:14:09 mail systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 83654.
+Sep 22 14:14:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.147 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=8123 PROTO=TCP SPT=43925 DPT=51520 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:14:12 mail sudo[225632]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:14:16 mail sudo[225844]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/a2enmod wsgi[0m
+Sep 22 14:14:16 mail sudo[225844]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:14:16 mail sudo[225844]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:14:42 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=104.248.121.165 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=53162 PROTO=TCP SPT=45255 DPT=11878 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:14:48 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=47963 PROTO=TCP SPT=57264 DPT=8021 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:14:49 mail sudo[225858]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python-pip[0m
+Sep 22 14:14:49 mail sudo[225858]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:14:50 mail sudo[225858]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:14:55 mail sudo[225871]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install virtualenv[0m
+Sep 22 14:14:55 mail sudo[225871]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:14:55 mail sudo[225871]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:15:01 mail CRON[225873]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:15:01 mail CRON[225874]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 14:15:01 mail CRON[225873]: pam_unix(cron:session): session closed for user root
+Sep 22 14:15:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=54251 PROTO=TCP SPT=51074 DPT=51852 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:15:12 mail sshd[225330]: Connection reset by 222.186.30.112 port 46631 [preauth]
+Sep 22 14:15:23 mail postfix/anvil[224776]: statistics: max connection rate 1/60s for (smtp:167.88.7.14) at Sep 22 14:11:02
+Sep 22 14:15:23 mail postfix/anvil[224776]: statistics: max connection count 1 for (smtp:167.88.7.14) at Sep 22 14:11:02
+Sep 22 14:15:23 mail postfix/anvil[224776]: statistics: max cache size 1 at Sep 22 14:11:02
+Sep 22 14:15:26 mail sudo[225887]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/python3 app.py[0m
+Sep 22 14:15:26 mail sudo[225887]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:15:26 mail sudo[225887]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:15:30 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.121 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=65058 PROTO=TCP SPT=56583 DPT=24590 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:15:50 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=23241 PROTO=TCP SPT=59178 DPT=4642 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:16:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=49268 PROTO=TCP SPT=51074 DPT=58138 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:16:27 mail sudo[225924]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/link --overwrite python[0m
+Sep 22 14:16:27 mail sudo[225924]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:16:27 mail sudo[225924]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:16:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.146.164.169 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=45346 PROTO=TCP SPT=49295 DPT=44445 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:16:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.146.164.169 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=60872 PROTO=TCP SPT=49295 DPT=1984 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:17:01 mail CRON[225937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:17:01 mail CRON[225938]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 22 14:17:01 mail CRON[225937]: pam_unix(cron:session): session closed for user root
+Sep 22 14:17:03 mail postfix/smtpd[225940]: connect from power1.totalquality.live[198.204.249.218]
+Sep 22 14:17:04 mail postfix/smtpd[225940]: NOQUEUE: reject: RCPT from power1.totalquality.live[198.204.249.218]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<juliechalmers865@gmail.com> to=<info@sansiri.com.au> proto=ESMTP helo=<power1.totalquality.live>
+Sep 22 14:17:04 mail postfix/smtpd[225940]: disconnect from power1.totalquality.live[198.204.249.218] ehlo=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=4/6
+Sep 22 14:17:14 mail sudo[225945]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/pip3 install virtualenv[0m
+Sep 22 14:17:14 mail sudo[225945]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:17:16 mail sudo[225945]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:17:26 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.143 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=6436 PROTO=TCP SPT=58465 DPT=51539 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:17:39 mail sudo[225955]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:17:39 mail sudo[225955]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:17:39 mail sudo[225955]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:17:45 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=35479 PROTO=TCP SPT=51074 DPT=43117 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:17:55 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=162.142.125.78 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=41 ID=54974 PROTO=TCP SPT=3338 DPT=8072 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:18:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.13 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=47377 PROTO=TCP SPT=53604 DPT=9067 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:18:22 mail sshd[225982]: Invalid user hadoop from 51.210.13.215 port 53322
+Sep 22 14:18:22 mail sshd[225982]: Received disconnect from 51.210.13.215 port 53322:11: Bye Bye [preauth]
+Sep 22 14:18:22 mail sshd[225982]: Disconnected from invalid user hadoop 51.210.13.215 port 53322 [preauth]
+Sep 22 14:18:30 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.216.140.6 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=54321 PROTO=TCP SPT=45173 DPT=70 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:18:32 mail sudo[225996]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:18:32 mail sudo[225996]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:18:32 mail sudo[225996]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:18:52 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=63072 PROTO=TCP SPT=51074 DPT=30469 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:18:54 mail sudo[225999]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:18:54 mail sudo[225999]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:18:54 mail sudo[225999]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:19:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=10633 PROTO=TCP SPT=59178 DPT=4402 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:19:16 mail PackageKit[225261]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 14:19:16 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 14:19:23 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:19:23 mail postfix/smtpd[226030]: connect from unknown[141.98.10.192]
+Sep 22 14:19:23 mail postfix/smtpd[226030]: disconnect from unknown[141.98.10.192] ehlo=1 auth=0/1 quit=1 commands=2/3
+Sep 22 14:19:26 mail postfix/smtpd[226030]: connect from info.informativescience.online[172.93.230.88]
+Sep 22 14:19:27 mail postfix/smtpd[226030]: NOQUEUE: reject: RCPT from info.informativescience.online[172.93.230.88]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<info@informativescience.online> to=<info@sansiri.com.au> proto=ESMTP helo=<guru.informativescience.online>
+Sep 22 14:19:27 mail postfix/smtpd[226030]: disconnect from info.informativescience.online[172.93.230.88] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:19:47 mail sudo[226042]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/rm /usr/bin/python[0m
+Sep 22 14:19:47 mail sudo[226042]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:19:47 mail sudo[226042]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:19:52 mail sudo[226044]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/ln -sf /usr/bin/python3.6 /usr/bin/python[0m
+Sep 22 14:19:52 mail sudo[226044]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:19:52 mail sudo[226044]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:19:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=29600 PROTO=TCP SPT=51074 DPT=57354 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:19:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.143 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=53498 PROTO=TCP SPT=58465 DPT=51543 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:20:04 mail sudo[226054]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/rm /usr/bin/python[0m
+Sep 22 14:20:04 mail sudo[226054]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:20:04 mail sudo[226054]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:20:08 mail sudo[226057]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/ln -s /usr/bin/python2.7 /usr/bin/python[0m
+Sep 22 14:20:08 mail sudo[226057]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:20:08 mail sudo[226057]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:20:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=52991 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:20:12 mail sudo[226059]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/rm /usr/bin/python3[0m
+Sep 22 14:20:12 mail sudo[226059]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:20:12 mail sudo[226059]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:20:15 mail sudo[226061]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/ln -s /usr/bin/python3.8 /usr/bin/python3[0m
+Sep 22 14:20:15 mail sudo[226061]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:20:15 mail sudo[226061]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:20:30 mail sudo[226071]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/local/bin/pip install Flask[0m
+Sep 22 14:20:30 mail sudo[226071]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:20:30 mail sudo[226071]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:20:33 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=47061 PROTO=TCP SPT=59623 DPT=27981 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:20:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=48781 PROTO=TCP SPT=51074 DPT=2186 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:21:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=51.210.255.202 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=54321 PROTO=TCP SPT=53221 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:21:28 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=24605 PROTO=TCP SPT=59623 DPT=51689 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:21:45 mail postfix/smtpd[226077]: connect from mail-lj1-f193.google.com[209.85.208.193]
+Sep 22 14:21:45 mail postfix/smtpd[226077]: NOQUEUE: reject: RCPT from mail-lj1-f193.google.com[209.85.208.193]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<seo.mkt@dreamwebrank.online> to=<info@sansiri.com.au> proto=ESMTP helo=<mail-lj1-f193.google.com>
+Sep 22 14:21:45 mail postfix/smtpd[226077]: disconnect from mail-lj1-f193.google.com[209.85.208.193] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Sep 22 14:21:48 mail sudo[226080]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get update[0m
+Sep 22 14:21:48 mail sudo[226080]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:21:48 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:21:48 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:21:48 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:21:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=201.111.23.190 DST=104.248.22.82 LEN=52 TOS=0x00 PREC=0x00 TTL=117 ID=31498 DF PROTO=TCP SPT=58845 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:21:50 mail dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.401' (uid=0 pid=226394 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 22 14:21:50 mail systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 83729.
+Sep 22 14:21:50 mail PackageKit[226397]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Sep 22 14:21:50 mail dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 22 14:21:50 mail systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 83729.
+Sep 22 14:21:51 mail sudo[226080]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:21:58 mail sudo[226439]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt-get install python-virtualenv[0m
+Sep 22 14:21:58 mail sudo[226439]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:21:58 mail sudo[226439]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:22:13 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=202.141.254.130 DST=104.248.22.82 LEN=48 TOS=0x00 PREC=0x00 TTL=119 ID=10677 DF PROTO=TCP SPT=12488 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:22:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=53625 PROTO=TCP SPT=40232 DPT=51557 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:22:52 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=62551 PROTO=TCP SPT=59623 DPT=17129 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:23:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=51993 PROTO=TCP SPT=51074 DPT=61753 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:23:29 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=14170 PROTO=TCP SPT=59178 DPT=4528 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:23:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=33026 PROTO=TCP SPT=51074 DPT=12972 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:24:21 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=5201 PROTO=TCP SPT=59178 DPT=4407 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:24:33 mail sshd[226524]: Received disconnect from 222.186.42.137 port 17145:11:  [preauth]
+Sep 22 14:24:33 mail sshd[226524]: Disconnected from 222.186.42.137 port 17145 [preauth]
+Sep 22 14:24:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=41.163.7.203 DST=104.248.22.82 LEN=139 TOS=0x18 PREC=0xA0 TTL=115 ID=40592 PROTO=UDP SPT=6881 DPT=51413 LEN=119 [0m
+Sep 22 14:24:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=122.117.234.102 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=15948 DF PROTO=TCP SPT=41755 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:25:01 mail CRON[226559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:25:01 mail CRON[226560]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 14:25:01 mail CRON[226559]: pam_unix(cron:session): session closed for user root
+Sep 22 14:25:06 mail postfix/anvil[225942]: statistics: max connection rate 1/60s for (smtp:198.204.249.218) at Sep 22 14:17:03
+Sep 22 14:25:06 mail postfix/anvil[225942]: statistics: max connection count 1 for (smtp:198.204.249.218) at Sep 22 14:17:03
+Sep 22 14:25:06 mail postfix/anvil[225942]: statistics: max cache size 2 at Sep 22 14:19:26
+Sep 22 14:25:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=64161 PROTO=TCP SPT=51074 DPT=4952 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:25:29 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=193.27.228.172 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=16224 PROTO=TCP SPT=49745 DPT=15668 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:25:55 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=33290 PROTO=TCP SPT=51493 DPT=65084 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:26:09 mail sshd[226627]: Received disconnect from 222.186.15.62 port 37974:11:  [preauth]
+Sep 22 14:26:09 mail sshd[226627]: Disconnected from 222.186.15.62 port 37974 [preauth]
+Sep 22 14:26:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=19165 PROTO=TCP SPT=51074 DPT=23366 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:26:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=54301 PROTO=TCP SPT=51074 DPT=553 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:26:39 mail sshd[226635]: Invalid user sanjay from 110.43.40.167 port 33654
+Sep 22 14:26:39 mail sshd[226635]: Received disconnect from 110.43.40.167 port 33654:11: Bye Bye [preauth]
+Sep 22 14:26:39 mail sshd[226635]: Disconnected from invalid user sanjay 110.43.40.167 port 33654 [preauth]
+Sep 22 14:26:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=80.82.77.245 DST=104.248.22.82 LEN=57 TOS=0x00 PREC=0x00 TTL=250 ID=54321 PROTO=UDP SPT=52285 DPT=120 LEN=37 [0m
+Sep 22 14:26:55 mail PackageKit[226397]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 14:26:55 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 14:27:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=54361 PROTO=TCP SPT=51074 DPT=56578 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:27:43 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=57463 PROTO=TCP SPT=51074 DPT=58419 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:27:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.47 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=18442 PROTO=TCP SPT=51954 DPT=15872 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:27:54 mail postfix/smtpd[226674]: connect from 19hap.happybeam.tech[139.99.134.112]
+Sep 22 14:27:55 mail postfix/smtpd[226674]: NOQUEUE: reject: RCPT from 19hap.happybeam.tech[139.99.134.112]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<sara@happybeam.tech> to=<info@sansiri.com.au> proto=ESMTP helo=<vps-c1ea8750.vps.ovh.ca>
+Sep 22 14:27:55 mail postfix/smtpd[226674]: disconnect from 19hap.happybeam.tech[139.99.134.112] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:28:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.194.225 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=20308 PROTO=TCP SPT=44600 DPT=1014 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:28:30 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=33070 PROTO=TCP SPT=51074 DPT=5040 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:28:36 mail sudo[226683]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt update[0m
+Sep 22 14:28:36 mail sudo[226683]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:28:36 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:28:36 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:28:36 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:28:37 mail dbus-daemon[655]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.403' (uid=0 pid=226994 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Sep 22 14:28:37 mail systemd[1]: Starting PackageKit Daemon...
+-- Subject: A start job for unit packagekit.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has begun execution.
+-- 
+-- The job identifier is 83804.
+Sep 22 14:28:37 mail PackageKit[226997]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon start[0m
+Sep 22 14:28:37 mail dbus-daemon[655]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Sep 22 14:28:37 mail systemd[1]: Started PackageKit Daemon.
+-- Subject: A start job for unit packagekit.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit packagekit.service has finished successfully.
+-- 
+-- The job identifier is 83804.
+Sep 22 14:28:38 mail sudo[226683]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:28:39 mail sudo[227038]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt -y upgrade[0m
+Sep 22 14:28:39 mail sudo[227038]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:28:40 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:28:40 mail systemd-resolved[593]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mServer returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.[0m
+Sep 22 14:28:44 mail systemd[1]: Reloading.
+Sep 22 14:28:44 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:44 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:44 mail systemd[1]: Reloading.
+Sep 22 14:28:45 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:45 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:45 mail systemd[1]: Reloading.
+Sep 22 14:28:45 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:45 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:45 mail systemd[1]: fstrim.timer: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit fstrim.timer has successfully entered the 'dead' state.
+Sep 22 14:28:45 mail systemd[1]: Stopped Discard unused blocks once a week.
+-- Subject: A stop job for unit fstrim.timer has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit fstrim.timer has finished.
+-- 
+-- The job identifier is 83879 and the job result is done.
+Sep 22 14:28:45 mail systemd[1]: Stopping Discard unused blocks once a week.
+-- Subject: A stop job for unit fstrim.timer has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit fstrim.timer has begun execution.
+-- 
+-- The job identifier is 83879.
+Sep 22 14:28:45 mail systemd[1]: Started Discard unused blocks once a week.
+-- Subject: A start job for unit fstrim.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit fstrim.timer has finished successfully.
+-- 
+-- The job identifier is 83879.
+Sep 22 14:28:46 mail systemd[1]: Reloading.
+Sep 22 14:28:46 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:46 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:46 mail systemd[1]: fstrim.timer: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit fstrim.timer has successfully entered the 'dead' state.
+Sep 22 14:28:46 mail systemd[1]: Stopped Discard unused blocks once a week.
+-- Subject: A stop job for unit fstrim.timer has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit fstrim.timer has finished.
+-- 
+-- The job identifier is 83954 and the job result is done.
+Sep 22 14:28:46 mail systemd[1]: Stopping Discard unused blocks once a week.
+-- Subject: A stop job for unit fstrim.timer has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit fstrim.timer has begun execution.
+-- 
+-- The job identifier is 83954.
+Sep 22 14:28:46 mail systemd[1]: Started Discard unused blocks once a week.
+-- Subject: A start job for unit fstrim.timer has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit fstrim.timer has finished successfully.
+-- 
+-- The job identifier is 83954.
+Sep 22 14:28:47 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:28:47 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:28:47 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:28:47 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:28:47 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:28:47 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:28:49 mail systemd[1]: Reloading.
+Sep 22 14:28:49 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:49 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:50 mail systemd[1]: Reloading.
+Sep 22 14:28:50 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:50 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:51 mail systemd[1]: Reloading.
+Sep 22 14:28:51 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:51 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:52 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=64.227.22.7 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=54321 PROTO=TCP SPT=35250 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:28:53 mail systemd[1]: Reloading.
+Sep 22 14:28:53 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:53 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:54 mail systemd[1]: Starting GRUB failed boot detection...
+-- Subject: A start job for unit grub-initrd-fallback.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-initrd-fallback.service has begun execution.
+-- 
+-- The job identifier is 84029.
+Sep 22 14:28:54 mail systemd[1]: grub-initrd-fallback.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit grub-initrd-fallback.service has successfully entered the 'dead' state.
+Sep 22 14:28:54 mail systemd[1]: Finished GRUB failed boot detection.
+-- Subject: A start job for unit grub-initrd-fallback.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-initrd-fallback.service has finished successfully.
+-- 
+-- The job identifier is 84029.
+Sep 22 14:28:54 mail systemd[1]: Reloading.
+Sep 22 14:28:54 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:54 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:54 mail systemd[1]: Reloading.
+Sep 22 14:28:54 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:54 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:55 mail systemd[1]: Stopping LSB: Record successful boot for GRUB...
+-- Subject: A stop job for unit grub-common.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit grub-common.service has begun execution.
+-- 
+-- The job identifier is 84104.
+Sep 22 14:28:55 mail systemd[1]: grub-common.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit grub-common.service has successfully entered the 'dead' state.
+Sep 22 14:28:55 mail systemd[1]: Stopped LSB: Record successful boot for GRUB.
+-- Subject: A stop job for unit grub-common.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit grub-common.service has finished.
+-- 
+-- The job identifier is 84104 and the job result is done.
+Sep 22 14:28:55 mail systemd[1]: Starting LSB: Record successful boot for GRUB...
+-- Subject: A start job for unit grub-common.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-common.service has begun execution.
+-- 
+-- The job identifier is 84104.
+Sep 22 14:28:55 mail grub-common[228126]:  * Recording successful boot for GRUB
+Sep 22 14:28:55 mail grub-common[228126]:    ...done.
+Sep 22 14:28:55 mail systemd[1]: Started LSB: Record successful boot for GRUB.
+-- Subject: A start job for unit grub-common.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit grub-common.service has finished successfully.
+-- 
+-- The job identifier is 84104.
+Sep 22 14:28:55 mail systemd[1]: Reloading.
+Sep 22 14:28:55 mail systemd-logind[689]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 22 14:28:55 mail systemd-udevd[228013]: Using default interface naming scheme 'v245'.
+Sep 22 14:28:55 mail systemd-logind[689]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Sep 22 14:28:55 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:55 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:56 mail systemd[1]: Reloading.
+Sep 22 14:28:56 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:56 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:56 mail systemd[1]: Reloading.
+Sep 22 14:28:57 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:57 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:57 mail systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+-- Subject: A start job for unit vgauth.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit vgauth.service has finished successfully.
+-- 
+-- The job identifier is 84289.
+Sep 22 14:28:57 mail systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+-- Subject: A start job for unit open-vm-tools.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit open-vm-tools.service has finished successfully.
+-- 
+-- The job identifier is 84285.
+Sep 22 14:28:57 mail systemd[1]: Reloading.
+Sep 22 14:28:57 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:57 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:57 mail systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+-- Subject: A start job for unit vgauth.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit vgauth.service has finished successfully.
+-- 
+-- The job identifier is 84290.
+Sep 22 14:28:57 mail systemd[1]: Reloading.
+Sep 22 14:28:58 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:58 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:58 mail systemd[1]: Reloading.
+Sep 22 14:28:58 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:28:58 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:28:58 mail systemd[1]: Started Daemon for generating UUIDs.
+-- Subject: A start job for unit uuidd.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit uuidd.service has finished successfully.
+-- 
+-- The job identifier is 84293.
+Sep 22 14:28:59 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:29:01 mail os-prober[229368]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/50mounted-tests on /dev/vda14[0m
+Sep 22 14:29:01 mail 50mounted-tests[229376]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda14 type not recognised; skipping[0m
+Sep 22 14:29:01 mail os-prober[229377]: [0;1;39m[0;1;31m[0;1;39mdebug: os detected by /usr/lib/os-probes/50mounted-tests[0m
+Sep 22 14:29:01 mail os-prober[229394]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail 05efi[229396]: [0;1;39m[0;1;31m[0;1;39mdebug: Not on UEFI platform[0m
+Sep 22 14:29:01 mail os-prober[229397]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail 10freedos[229399]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda15 is a FAT32 partition[0m
+Sep 22 14:29:01 mail os-prober[229402]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail 10qnx[229404]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda15 is not a QNX4 partition: exiting[0m
+Sep 22 14:29:01 mail os-prober[229405]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail macosx-prober[229407]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda15 is not an HFS+ partition: exiting[0m
+Sep 22 14:29:01 mail os-prober[229408]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail 20microsoft[229410]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda15 is a FAT32 partition[0m
+Sep 22 14:29:01 mail os-prober[229419]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail 30utility[229421]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda15 is a FAT32 partition[0m
+Sep 22 14:29:01 mail os-prober[229426]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail os-prober[229428]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail os-prober[229430]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail os-prober[229432]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail 83haiku[229434]: [0;1;39m[0;1;31m[0;1;39mdebug: /dev/vda15 is not a BeFS partition: exiting[0m
+Sep 22 14:29:01 mail os-prober[229435]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/vda15[0m
+Sep 22 14:29:01 mail os-prober[229439]: [0;1;39m[0;1;31m[0;1;39mdebug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/vda15[0m
+Sep 22 14:29:03 mail systemd[1]: Reloading.
+Sep 22 14:29:03 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:29:03 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:29:03 mail systemd[1]: Stopping System Logging Service...
+-- Subject: A stop job for unit rsyslog.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit rsyslog.service has begun execution.
+-- 
+-- The job identifier is 84369.
+Sep 22 14:29:03 mail rsyslogd[677]:  message repeated 17 times: [[origin software="rsyslogd" swVersion="8.2001.0" x-pid="677" x-info="https://www.rsyslog.com"] rsyslogd was HUPed]
+Sep 22 14:29:03 mail rsyslogd[677]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="677" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Sep 22 14:29:03 mail systemd[1]: rsyslog.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit rsyslog.service has successfully entered the 'dead' state.
+Sep 22 14:29:03 mail systemd[1]: Stopped System Logging Service.
+-- Subject: A stop job for unit rsyslog.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit rsyslog.service has finished.
+-- 
+-- The job identifier is 84369 and the job result is done.
+Sep 22 14:29:03 mail systemd[1]: Starting System Logging Service...
+-- Subject: A start job for unit rsyslog.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsyslog.service has begun execution.
+-- 
+-- The job identifier is 84369.
+Sep 22 14:29:03 mail rsyslogd[229592]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Sep 22 14:29:03 mail rsyslogd[229592]: rsyslogd's groupid changed to 110
+Sep 22 14:29:03 mail rsyslogd[229592]: rsyslogd's userid changed to 104
+Sep 22 14:29:03 mail rsyslogd[229592]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="229592" x-info="https://www.rsyslog.com"] start
+Sep 22 14:29:03 mail systemd[1]: Started System Logging Service.
+-- Subject: A start job for unit rsyslog.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit rsyslog.service has finished successfully.
+-- 
+-- The job identifier is 84369.
+Sep 22 14:29:03 mail systemd[1]: Reloading.
+Sep 22 14:29:03 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.[0m
+Sep 22 14:29:03 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39m/lib/systemd/system/dovecot.service:19: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.[0m
+Sep 22 14:29:07 mail dbus-daemon[655]: [system] Reloaded configuration
+Sep 22 14:29:15 mail sshd[234684]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Sep 22 14:29:15 mail sshd[234685]: Received disconnect from 193.31.26.140 port 59136:11: Bye Bye [preauth]
+Sep 22 14:29:15 mail sshd[234685]: Disconnected from authenticating user root 193.31.26.140 port 59136 [preauth]
+Sep 22 14:29:16 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=149.3.170.149 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=54733 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:29:18 mail sudo[227038]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:29:30 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.57 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=59824 PROTO=TCP SPT=59178 DPT=4480 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:29:58 mail sudo[234737]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/apt install -y python3-pip[0m
+Sep 22 14:29:58 mail sudo[234737]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:29:59 mail sudo[234737]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:29:59 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.119 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=13523 PROTO=TCP SPT=54848 DPT=62223 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:30:10 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=192.241.235.173 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=54321 PROTO=TCP SPT=49042 DPT=8983 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:30:26 mail sshd[234765]: Received disconnect from 163.172.157.193 port 36314:11: Bye Bye [preauth]
+Sep 22 14:30:26 mail sshd[234765]: Disconnected from authenticating user root 163.172.157.193 port 36314 [preauth]
+Sep 22 14:30:29 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=52813 PROTO=TCP SPT=51074 DPT=24074 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:30:54 mail postfix/smtpd[234780]: connect from 19hap.happybeam.tech[139.99.134.112]
+Sep 22 14:30:56 mail postfix/smtpd[234780]: NOQUEUE: reject: RCPT from 19hap.happybeam.tech[139.99.134.112]: 454 4.7.1 <info@www.sansiri.com.au>: Relay access denied; from=<sara@happybeam.tech> to=<info@www.sansiri.com.au> proto=ESMTP helo=<vps-c1ea8750.vps.ovh.ca>
+Sep 22 14:30:56 mail postfix/smtpd[234780]: disconnect from 19hap.happybeam.tech[139.99.134.112] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:31:05 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=71.6.199.23 DST=104.248.22.82 LEN=41 TOS=0x00 PREC=0x00 TTL=115 ID=13831 PROTO=UDP SPT=18494 DPT=5094 LEN=21 [0m
+Sep 22 14:31:19 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.143 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=41403 PROTO=TCP SPT=58465 DPT=51544 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:31:24 mail postfix/smtpd[234780]: connect from devices.privacyonweb.tech[104.237.200.54]
+Sep 22 14:31:25 mail postfix/smtpd[234780]: NOQUEUE: reject: RCPT from devices.privacyonweb.tech[104.237.200.54]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<suz@privacyonweb.tech> to=<info@sansiri.com.au> proto=ESMTP helo=<devices.privacyonweb.tech>
+Sep 22 14:31:25 mail postfix/smtpd[234780]: disconnect from devices.privacyonweb.tech[104.237.200.54] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:31:44 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=154.206.62.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=59462 PROTO=TCP SPT=53401 DPT=2880 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:31:57 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=184.168.131.241 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=55 ID=32932 PROTO=TCP SPT=443 DPT=22773 WINDOW=16384 RES=0x00 ACK URGP=0 [0m
+Sep 22 14:32:17 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=46444 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:32:31 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=24220 PROTO=TCP SPT=51074 DPT=23763 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:32:32 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=175.45.149.2 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=51 ID=0 DF PROTO=TCP SPT=54183 DPT=443 WINDOW=0 RES=0x00 RST URGP=0 [0m
+Sep 22 14:32:50 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=178.62.18.9 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=37799 PROTO=TCP SPT=45883 DPT=11868 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:33:20 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.146.164.169 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=52201 PROTO=TCP SPT=49295 DPT=2288 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:33:20 mail sudo[234835]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/marks.codevibes.io.[0m
+Sep 22 14:33:20 mail sudo[234835]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:33:21 mail sudo[234835]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:33:34 mail sudo[234837]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/marks.codevibes.io.conf[0m
+Sep 22 14:33:34 mail sudo[234837]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:33:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=116.101.171.243 DST=104.248.22.82 LEN=48 TOS=0x00 PREC=0x00 TTL=114 ID=16885 DF PROTO=TCP SPT=62839 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:34:01 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=192.35.169.46 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=40 ID=53950 PROTO=TCP SPT=23388 DPT=9206 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:34:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=14243 PROTO=TCP SPT=51074 DPT=52704 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:34:22 mail PackageKit[226997]: [0;38;5;245m[0;1;31m[0;38;5;245mdaemon quit[0m
+Sep 22 14:34:22 mail systemd[1]: packagekit.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit packagekit.service has successfully entered the 'dead' state.
+Sep 22 14:34:38 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.119 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=37766 PROTO=TCP SPT=54848 DPT=2344 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:34:45 mail postfix/anvil[226676]: statistics: max connection rate 1/60s for (smtp:139.99.134.112) at Sep 22 14:27:54
+Sep 22 14:34:45 mail postfix/anvil[226676]: statistics: max connection count 1 for (smtp:139.99.134.112) at Sep 22 14:27:54
+Sep 22 14:34:45 mail postfix/anvil[226676]: statistics: max cache size 2 at Sep 22 14:31:24
+Sep 22 14:34:46 mail postfix/qmgr[1743]: 7626681CC8: from=<>, size=5083, nrcpt=1 (queue active)
+Sep 22 14:34:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.120 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=42610 PROTO=TCP SPT=56165 DPT=45054 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:35:01 mail CRON[234860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:35:01 mail CRON[234861]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 14:35:01 mail CRON[234860]: pam_unix(cron:session): session closed for user root
+Sep 22 14:35:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=47778 PROTO=TCP SPT=40232 DPT=51232 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:35:16 mail postfix/smtp[234859]: connect to mx.zoho.com[136.143.190.121]:25: Connection timed out
+Sep 22 14:35:16 mail sshd[234864]: Accepted publickey for root from 112.135.4.28 port 1965 ssh2: RSA SHA256:3WB9qtUivfyd9mOU5vWcXm3JNzLwk6P1P0kZCg8S35k
+Sep 22 14:35:16 mail sshd[234864]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Sep 22 14:35:16 mail systemd-logind[689]: New session 3646 of user root.
+-- Subject: A new session 3646 has been created for user root
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- Documentation: https://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 3646 has been created for the user root.
+-- 
+-- The leading process of the session is 234864.
+Sep 22 14:35:16 mail systemd[1]: Started Session 3646 of user root.
+-- Subject: A start job for unit session-3646.scope has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit session-3646.scope has finished successfully.
+-- 
+-- The job identifier is 84445.
+Sep 22 14:35:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.6 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=41732 PROTO=TCP SPT=53955 DPT=21655 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:35:46 mail postfix/smtp[234859]: connect to mx2.zoho.com[136.143.182.121]:25: Connection timed out
+Sep 22 14:35:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=106.12.68.244 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=38676 PROTO=TCP SPT=59146 DPT=26450 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:36:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=188.241.25.22 DST=104.248.22.82 LEN=96 TOS=0x00 PREC=0x00 TTL=120 ID=41551 PROTO=UDP SPT=64637 DPT=55948 LEN=76 [0m
+Sep 22 14:36:16 mail postfix/smtp[234859]: connect to mx3.zoho.com[136.143.190.121]:25: Connection timed out
+Sep 22 14:36:16 mail postfix/smtp[234859]: 7626681CC8: to=<asanga@admin@codevibes.io>, orig_to=<admin@codevibes.io>, relay=none, delay=57302, delays=57212/0.02/90/0, dsn=4.4.1, status=deferred (connect to mx3.zoho.com[136.143.190.121]:25: Connection timed out)
+Sep 22 14:36:23 mail postfix/smtpd[234983]: connect from 19hap.happybeam.tech[139.99.134.112]
+Sep 22 14:36:24 mail postfix/smtpd[234983]: NOQUEUE: reject: RCPT from 19hap.happybeam.tech[139.99.134.112]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<sara@happybeam.tech> to=<info@sansiri.com.au> proto=ESMTP helo=<vps-c1ea8750.vps.ovh.ca>
+Sep 22 14:36:24 mail postfix/smtpd[234983]: disconnect from 19hap.happybeam.tech[139.99.134.112] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:36:29 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=58407 PROTO=TCP SPT=59623 DPT=63524 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:36:52 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=69.10.44.114 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=57 ID=30536 PROTO=TCP SPT=80 DPT=38906 WINDOW=16384 RES=0x00 ACK URGP=0 [0m
+Sep 22 14:37:17 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.49.159 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=13848 PROTO=TCP SPT=40232 DPT=53856 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:37:30 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=92.63.196.47 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=248 ID=20367 PROTO=TCP SPT=44693 DPT=35589 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:37:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=25339 PROTO=TCP SPT=51074 DPT=19086 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:38:04 mail sshd[234990]: Invalid user dev from 68.116.41.6 port 51130
+Sep 22 14:38:04 mail sshd[234990]: Received disconnect from 68.116.41.6 port 51130:11: Bye Bye [preauth]
+Sep 22 14:38:04 mail sshd[234990]: Disconnected from invalid user dev 68.116.41.6 port 51130 [preauth]
+Sep 22 14:38:45 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=64631 PROTO=TCP SPT=51074 DPT=45576 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:38:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=195.54.167.91 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=14766 PROTO=TCP SPT=41949 DPT=51031 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:38:56 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=51.89.251.132 DST=104.248.22.82 LEN=52 TOS=0x02 PREC=0x00 TTL=117 ID=1574 DF PROTO=TCP SPT=52860 DPT=1433 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 [0m
+Sep 22 14:39:01 mail CRON[234998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:39:01 mail CRON[234999]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Sep 22 14:39:01 mail CRON[234998]: pam_unix(cron:session): session closed for user root
+Sep 22 14:39:10 mail systemd[1]: Starting Clean php session files...
+-- Subject: A start job for unit phpsessionclean.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has begun execution.
+-- 
+-- The job identifier is 84523.
+Sep 22 14:39:10 mail systemd[1]: phpsessionclean.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit phpsessionclean.service has successfully entered the 'dead' state.
+Sep 22 14:39:10 mail systemd[1]: Finished Clean php session files.
+-- Subject: A start job for unit phpsessionclean.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit phpsessionclean.service has finished successfully.
+-- 
+-- The job identifier is 84523.
+Sep 22 14:39:11 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=195.54.167.94 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=23799 PROTO=TCP SPT=56318 DPT=5374 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:39:32 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=176.113.115.214 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=20865 PROTO=TCP SPT=43832 DPT=8081 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:39:33 mail sudo[234837]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:39:45 mail postfix/anvil[234985]: statistics: max connection rate 1/60s for (smtp:139.99.134.112) at Sep 22 14:36:23
+Sep 22 14:39:45 mail postfix/anvil[234985]: statistics: max connection count 1 for (smtp:139.99.134.112) at Sep 22 14:36:23
+Sep 22 14:39:45 mail postfix/anvil[234985]: statistics: max cache size 1 at Sep 22 14:36:23
+Sep 22 14:39:50 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=209.17.96.50 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=64225 DPT=9000 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:40:15 mail sudo[235071]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/sbin/a2ensite marks.codevibes.io[0m
+Sep 22 14:40:15 mail sudo[235071]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:40:15 mail sudo[235071]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:40:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=110.86.16.254 DST=104.248.22.82 LEN=52 TOS=0x00 PREC=0x00 TTL=50 ID=13767 DF PROTO=TCP SPT=49152 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:40:19 mail systemd[1]: Reloading The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84597.
+Sep 22 14:40:19 mail systemd[1]: Reloaded The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has finished.
+-- 
+-- The job identifier is 84597 and the job result is done.
+Sep 22 14:40:30 mail sudo[235091]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano flaskapp.wsgi[0m
+Sep 22 14:40:30 mail sudo[235091]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:40:33 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=171.76.234.114 DST=104.248.22.82 LEN=52 TOS=0x18 PREC=0x20 TTL=117 ID=11731 DF PROTO=TCP SPT=65481 DPT=1433 WINDOW=8192 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:40:55 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=17301 PROTO=TCP SPT=59623 DPT=60061 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:41:03 mail sudo[235091]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:41:08 mail sudo[235095]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Sep 22 14:41:08 mail sudo[235095]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:41:08 mail systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84598.
+Sep 22 14:41:09 mail systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Sep 22 14:41:09 mail systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 84598 and the job result is done.
+Sep 22 14:41:09 mail systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84598.
+Sep 22 14:41:09 mail systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 84598.
+Sep 22 14:41:09 mail sudo[235095]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:41:22 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.81 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=64373 PROTO=TCP SPT=53144 DPT=59020 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:41:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.121 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=12139 PROTO=TCP SPT=58472 DPT=3414 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:41:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=193.27.229.207 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=30345 PROTO=TCP SPT=43159 DPT=4562 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:42:13 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=12415 PROTO=TCP SPT=59623 DPT=5159 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:42:33 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=50119 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:43:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.121 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=10574 PROTO=TCP SPT=58472 DPT=3405 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:43:09 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=19701 PROTO=TCP SPT=44170 DPT=27468 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:43:32 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=193.27.229.207 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=59589 PROTO=TCP SPT=43159 DPT=4764 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:43:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=22281 PROTO=TCP SPT=59623 DPT=3250 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:44:14 mail systemd[1]: Starting Service for snap application certbot.renew...
+-- Subject: A start job for unit snap.certbot.renew.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.renew.service has begun execution.
+-- 
+-- The job identifier is 84672.
+Sep 22 14:44:14 mail sudo[235144]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano flaskapp.wsgi[0m
+Sep 22 14:44:14 mail sudo[235144]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:44:18 mail systemd[1]: snap.certbot.renew.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit snap.certbot.renew.service has successfully entered the 'dead' state.
+Sep 22 14:44:18 mail systemd[1]: Finished Service for snap application certbot.renew.
+-- Subject: A start job for unit snap.certbot.renew.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit snap.certbot.renew.service has finished successfully.
+-- 
+-- The job identifier is 84672.
+Sep 22 14:44:21 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=92.63.197.61 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=60676 PROTO=TCP SPT=44552 DPT=9009 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:44:26 mail sudo[235144]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:44:28 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.17 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=17724 PROTO=TCP SPT=43252 DPT=5945 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:44:30 mail sudo[235184]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+Sep 22 14:44:30 mail sudo[235184]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:44:30 mail systemd[1]: Stopping The Apache HTTP Server...
+-- Subject: A stop job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84749.
+Sep 22 14:44:31 mail systemd[1]: apache2.service: Succeeded.
+-- Subject: Unit succeeded
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit apache2.service has successfully entered the 'dead' state.
+Sep 22 14:44:31 mail systemd[1]: Stopped The Apache HTTP Server.
+-- Subject: A stop job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A stop job for unit apache2.service has finished.
+-- 
+-- The job identifier is 84749 and the job result is done.
+Sep 22 14:44:31 mail systemd[1]: Starting The Apache HTTP Server...
+-- Subject: A start job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84749.
+Sep 22 14:44:31 mail systemd[1]: Started The Apache HTTP Server.
+-- Subject: A start job for unit apache2.service has finished successfully
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit apache2.service has finished successfully.
+-- 
+-- The job identifier is 84749.
+Sep 22 14:44:31 mail sudo[235184]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:45:01 mail CRON[235223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 22 14:45:01 mail CRON[235224]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 22 14:45:01 mail CRON[235223]: pam_unix(cron:session): session closed for user root
+Sep 22 14:45:06 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=14827 PROTO=TCP SPT=51074 DPT=1501 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:45:35 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=185.153.197.52 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=47630 PROTO=TCP SPT=59623 DPT=6685 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:45:46 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.106 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=21946 PROTO=TCP SPT=58573 DPT=6778 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:45:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=64.227.74.131 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=54321 PROTO=TCP SPT=60710 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:46:05 mail postfix/smtpd[235228]: connect from korti.kortirotlicone.online[172.93.228.254]
+Sep 22 14:46:06 mail postfix/smtpd[235228]: NOQUEUE: reject: RCPT from korti.kortirotlicone.online[172.93.228.254]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<maddison@kortirotlicone.online> to=<info@sansiri.com.au> proto=ESMTP helo=<korti.kortirotlicone.online>
+Sep 22 14:46:06 mail postfix/smtpd[235228]: disconnect from korti.kortirotlicone.online[172.93.228.254] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:46:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.145 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=58403 PROTO=TCP SPT=44406 DPT=51514 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:46:28 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=74.120.14.23 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x20 TTL=44 ID=39479 PROTO=TCP SPT=10057 DPT=82 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:46:51 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=5458 PROTO=TCP SPT=45597 DPT=861 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:47:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54654 PROTO=TCP SPT=51493 DPT=64525 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:47:09 mail sshd[235237]: Received disconnect from 119.45.58.111 port 35466:11: Bye Bye [preauth]
+Sep 22 14:47:09 mail sshd[235237]: Disconnected from authenticating user root 119.45.58.111 port 35466 [preauth]
+Sep 22 14:47:36 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=14.186.197.41 DST=104.248.22.82 LEN=44 TOS=0x00 PREC=0x00 TTL=50 ID=7433 PROTO=TCP SPT=35196 DPT=5555 WINDOW=39788 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:47:48 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=10567 PROTO=TCP SPT=51074 DPT=51483 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:48:13 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.51.95 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=56356 PROTO=TCP SPT=44170 DPT=42794 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:48:26 mail sudo[235243]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/marks.codevibes.io.conf[0m
+Sep 22 14:48:26 mail sudo[235243]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:48:34 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=54198 PROTO=TCP SPT=51074 DPT=57956 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:48:34 mail sshd[235245]: [0;1;31m[0;1;39m[0;1;31merror: kex_exchange_identification: Connection closed by remote host[0m
+Sep 22 14:48:58 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=85.192.32.122 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=37769 PROTO=TCP SPT=51493 DPT=60008 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:49:07 mail postfix/smtpd[235247]: connect from across.atagachetota.online[104.237.200.55]
+Sep 22 14:49:08 mail postfix/smtpd[235247]: NOQUEUE: reject: RCPT from across.atagachetota.online[104.237.200.55]: 454 4.7.1 <info@sansiri.com.au>: Relay access denied; from=<nancy@atagachetota.online> to=<info@sansiri.com.au> proto=ESMTP helo=<across.atagachetota.online>
+Sep 22 14:49:08 mail postfix/smtpd[235247]: disconnect from across.atagachetota.online[104.237.200.55] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Sep 22 14:49:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=9162 PROTO=TCP SPT=51074 DPT=868 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:49:08 mail sudo[235243]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:49:10 mail sudo[235251]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/marks.codevibes.io.conf[0m
+Sep 22 14:49:10 mail sudo[235251]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:49:23 mail sudo[235251]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:49:30 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=49740 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:49:49 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=103.145.13.229 DST=104.248.22.82 LEN=446 TOS=0x00 PREC=0x00 TTL=52 ID=55058 DF PROTO=UDP SPT=5107 DPT=5060 LEN=426 [0m
+Sep 22 14:49:55 mail systemd[1]: Reloading The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84823.
+Sep 22 14:49:55 mail apachectl[235282]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/marks.codevibes.io.conf:
+Sep 22 14:49:55 mail apachectl[235282]: Invalid command 'PassengerAppType', perhaps misspelled or defined by a module not included in the server configuration
+Sep 22 14:49:55 mail apachectl[235279]: Action 'graceful' failed.
+Sep 22 14:49:55 mail apachectl[235279]: The Apache error log may have more information.
+Sep 22 14:49:55 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecReload= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Sep 22 14:49:55 mail systemd[1]: [0;1;31m[0;1;39m[0;1;31mReload failed for The Apache HTTP Server.[0m
+-- Subject: A reload job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has finished.
+-- 
+-- The job identifier is 84823 and the job result is failed.
+Sep 22 14:50:08 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=45.129.33.41 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=22306 PROTO=TCP SPT=55237 DPT=39112 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:50:20 mail sudo[235288]: [0;1;39m[0;1;31m[0;1;39m    root : TTY=pts/0 ; PWD=/var/www/marks.codevibes.io ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/marks.codevibes.io.conf[0m
+Sep 22 14:50:20 mail sudo[235288]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Sep 22 14:50:37 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=79.124.62.82 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=249 ID=49264 PROTO=TCP SPT=51074 DPT=29755 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:50:54 mail sudo[235288]: pam_unix(sudo:session): session closed for user root
+Sep 22 14:51:01 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=194.26.25.97 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=32670 PROTO=TCP SPT=56123 DPT=3918 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:51:08 mail systemd[1]: Reloading The Apache HTTP Server.
+-- Subject: A reload job for unit apache2.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has begun execution.
+-- 
+-- The job identifier is 84824.
+Sep 22 14:51:08 mail apachectl[235316]: AH00526: Syntax error on line 10 of /etc/apache2/sites-enabled/marks.codevibes.io.conf:
+Sep 22 14:51:08 mail apachectl[235316]: Invalid command 'PassengerAppRoot', perhaps misspelled or defined by a module not included in the server configuration
+Sep 22 14:51:08 mail apachectl[235313]: Action 'graceful' failed.
+Sep 22 14:51:08 mail apachectl[235313]: The Apache error log may have more information.
+Sep 22 14:51:08 mail systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecReload= process belonging to unit apache2.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+Sep 22 14:51:08 mail systemd[1]: [0;1;31m[0;1;39m[0;1;31mReload failed for The Apache HTTP Server.[0m
+-- Subject: A reload job for unit apache2.service has finished
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A reload job for unit apache2.service has finished.
+-- 
+-- The job identifier is 84824 and the job result is failed.
+Sep 22 14:51:10 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=93.170.137.29 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=39824 DF PROTO=TCP SPT=18026 DPT=8080 WINDOW=14600 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:51:33 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=195.54.167.174 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=1613 PROTO=TCP SPT=41837 DPT=50702 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:51:54 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=94.102.53.112 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=250 ID=28525 PROTO=TCP SPT=47405 DPT=54794 WINDOW=1024 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:52:15 mail kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[UFW BLOCK] IN=eth0 OUT= MAC=de:94:66:7c:dc:02:fe:00:00:00:01:01:08:00 SRC=128.199.1.231 DST=104.248.22.82 LEN=40 TOS=0x00 PREC=0x00 TTL=247 ID=54321 PROTO=TCP SPT=42284 DPT=8088 WINDOW=65535 RES=0x00 SYN URGP=0 [0m
+Sep 22 14:52:23 mail sshd[235321]: Received disconnect from 222.186.15.62 port 55049:11:  [preauth]
+Sep 22 14:52:23 mail sshd[235321]: Disconnected from 222.186.15.62 port 55049 [preauth]
+Sep 22 14:52:28 mail postfix/anvil[235230]: statistics: max connection rate 1/60s for (smtp:172.93.228.254) at Sep 22 14:46:05
+Sep 22 14:52:28 mail postfix/anvil[235230]: statistics: max connection count 1 for (smtp:172.93.228.254) at Sep 22 14:46:05
+Sep 22 14:52:28 mail postfix/anvil[235230]: statistics: max cache size 1 at Sep 22 14:46:05
